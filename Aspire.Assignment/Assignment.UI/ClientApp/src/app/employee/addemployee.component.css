@@ -1,0 +1,10 @@
+/* to diaplay drop down symbol in input field*/
+select.form-control 
+{ -webkit-appearance: menulist; }
+
+
+/* to display asterick symbol behind label */
+.required:after {
+    content:" *";
+    color: red;
+  }
